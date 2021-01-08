@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge", charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+    <meta name="description" content="Suasive Voice Search">
+    <meta name="author" content="Smit Shetye">
+    <link rel="icon" href="https://smitshetye.github.io/logo.ico">
+    <title>Suasive Voice Search - By Smit Shetye</title>
+	<!-- Bootstrap 4.0-->
+	<link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.css">
+  </head>
+<body>
+	<!-- Main content -->
+		<section class="content">
+
+			<!-- Content Header (Page header) -->
+			<div class="content-header">
+				<div class="d-flex align-items-center justify-content-between">
+					<div class="d-md-block d-none">
+						<h3 class="page-title br-0">Suasive Voice Search</h3>
+					</div>
+					<div class="w-p60">
+						<!-- Search Form -->
+						<form id="labnol" method="get" action="https://www.suasive.in/search">
+							<div class="form-group mb-0 mr-5">
+								<div class="input-group">
+									<input type="text" name="q" class="form-control border-white" id="transcript" placeholder="Suasive Voice Search" x-webkit-speech>
+									<div class="input-group-append">
+										<button type="button" onclick="startDictation()" class="tst4 btn btn-rounded btn-white"><img src="images/Google_mic.png" width="30px" height="30px" class="img-fluid w-15" alt=""></button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+</section>
+		<!-- /.content -->
+   <!-- /.content-wrapper -->
+  <footer class="main-footer">
+     &copy; 2020 <a href="https://smitshetye.github.io/">Smit Shetye</a>. All Rights Reserved.
+  </footer>
+
+  	<!-- jQuery 3 -->
+	<script src="assets/jquery-3.3.1/jquery-3.3.1.js"></script>
+  	<!-- Bootstrap 4.0-->
+	<script src="assets/bootstrap/dist/js/bootstrap.js"></script>
+	<!-- Suasive Voice Search App -->
+	<script src="js/voice-search.js"></script>
+</body>
+</html>
