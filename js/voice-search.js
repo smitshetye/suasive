@@ -27,15 +27,3 @@
     }
   }
 
-	$(".tst4").on("click", function () {
-        $.toast({
-            heading: 'Voice Search',
-            text: 'Supported Only on Google Chrome Browser',
-            position: 'top-center',
-            loaderBg: '#ff6849',
-            icon: 'warning',
-            hideAfter: 10000
-
-        });
-
-    });
