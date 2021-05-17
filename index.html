@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html amp lang="en">
 <head>
     <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge", charset=utf-8"/>
@@ -10,6 +10,8 @@
     <title>Suasive Voice Search - By Smit Shetye</title>
 	<!-- Bootstrap 4.0-->
 	<link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.css">
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>							    
   </head>
 <body>
 	<!-- Main content -->
@@ -28,7 +30,9 @@
 								<div class="input-group">
 									<input type="text" name="q" class="form-control border-white" id="transcript" placeholder="Suasive Voice Search" x-webkit-speech>
 									<div class="input-group-append">
-										<button type="button" onclick="startDictation()" class="tst4 btn btn-rounded btn-white"><img src="images/Google_mic.png" width="30px" height="30px" class="img-fluid w-15" alt=""></button>
+										<button type="button" onclick="startDictation()" class="tst4 btn btn-rounded btn-white">
+										<amp-img src="images/Google_mic.png" width="30px" height="30px" class="img-fluid w-15" alt="" layout="responsive"></amp-img>
+										</button>
 									</div>
 								</div>
 							</div>
